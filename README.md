@@ -44,14 +44,14 @@ I utilized Nmap for active reconnaissance and service version detection to ident
 I deployed Nessus Essentials to automate threat detection, prioritizing remediation based on CVSS severity scores.
 
 <div align="center">
-  <img src="Vulnerabilty_Scan.png" width="800" alt="Nessus Dashboard">
+  <img src="Vulnerability_Scan.png" width="800" alt="Nessus Dashboard">
   <p><i><b>Vulnerability Distribution:</b> Prioritizing remediation efforts by categorizing system weaknesses according to CVSS severity.</i></p>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="Vulnerabilty_Details.png" width="800" alt="Nessus Detail">
+  <img src="Vulnerability_Details.png" width="800" alt="Nessus Detail">
   <p><i><b>Detailed Findings:</b> Reviewing technical "Proof of Concept" data and vendor-recommended remediation steps for critical risks.</i></p>
 </div>
 
