@@ -58,11 +58,18 @@ I deployed Nessus Essentials to automate threat detection, prioritizing remediat
 ---
 
 ### 3. Traffic Forensics & Protocol Auditing (Wireshark)
-I performed Deep Packet Inspection (DPI) to demonstrate the risks of unencrypted traffic and credential theft.
+I performed Deep Packet Inspection (DPI) to demonstrate the risks of unencrypted traffic and identify potential credential theft.
 
 <div align="center">
-  <img src="Wireshark_Filter.png" width="800" alt="Wireshark Stream">
-  <p><i>Evidence of cleartext credential transmission, demonstrating the risk of Man-in-the-Middle (MITM) attacks.</i></p>
+  <img src="Wireshark_Filter.png" width="800" alt="Wireshark Telnet Filter">
+  <p><i><b>Traffic Isolation:</b> Utilizing display filters to isolate Telnet traffic across the network, identifying active unencrypted management sessions.</i></p>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="Wireshark_TCP_Stream.png" width="800" alt="Wireshark TCP Stream">
+  <p><i><b>Credential Recovery:</b> Reconstructing the TCP Stream to reveal cleartext login credentials (msfadmin/msfadmin), proving the vulnerability of legacy protocols to MITM attacks.</i></p>
 </div>
 
 ---
